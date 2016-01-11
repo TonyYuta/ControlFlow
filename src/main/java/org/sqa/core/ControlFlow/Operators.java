@@ -61,5 +61,14 @@ public class Operators {
 		 bl = !bl;		
 		 System.out.println(bl);	// => true
 		
+		 // examples of usage Java equality and relational operators (6).
+		 int aaa = 3;
+		 int bbb = 7;
+		 System.out.println(aaa == bbb); 	// => false
+		 System.out.println(aaa != bbb); 	// => true
+		 System.out.println(aaa > bbb); 	// => false
+		 System.out.println(aaa < bbb); 	// => true
+		 System.out.println(aaa <= bbb); 	// => true
+		 System.out.println(aaa >= bbb); 	// => false
 	}
 }
