@@ -28,9 +28,19 @@ public class Operators {
 		String cc = aa + bb;
 		System.out.println(cc);
 		
-		
-		
-		
+		int a = 10;
+		int b = 5;
+		int c = 8;
+		System.out.println(a + b);	// => 15
+		System.out.println(c += a);	// => 18
+		System.out.println(a - b);	// => 5
+		System.out.println(c -= a);	// => 8
+		System.out.println(b % a);	// => 5
+		System.out.println(a * b);	// => 50
+		System.out.println(c *= a);	// => 80 
+		System.out.println(c %= a);	// => 0
+		System.out.println(b / a); 	// => 0
+		System.out.println(c /= a);	// => 0
 		
 	}
 }
