@@ -21,5 +21,16 @@ package org.sqa.core.ControlFlow;
  *
  */
 public class Operators {
-
+	//examples of usage Java assignment operator.
+	public static void main(String[] args) {	
+		String aa = "String aa ";
+		String bb = "String bb ";
+		String cc = aa + bb;
+		System.out.println(cc);
+		
+		
+		
+		
+		
+	}
 }
