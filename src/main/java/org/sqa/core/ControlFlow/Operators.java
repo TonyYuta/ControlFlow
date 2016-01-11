@@ -70,5 +70,20 @@ public class Operators {
 		 System.out.println(aaa < bbb); 	// => true
 		 System.out.println(aaa <= bbb); 	// => true
 		 System.out.println(aaa >= bbb); 	// => false
+		 
+		 // examples of usage Java logical and conditional operators (3).
+		 System.out.println('\n');
+		 boolean bo1 = true;
+		 boolean bo2 = false;
+		 System.out.println((bo1 && bo2));	// => false
+		 System.out.println((bo1 || bo2));	// => true
+		 int res;
+		 int i1 = 4;
+		 int i2 = 8;
+		 int x = 5;
+		 int y = 9;
+		 res = i1 > i2 ? x : y;		 
+		 System.out.println(res);			// => 9
+
 	}
 }
