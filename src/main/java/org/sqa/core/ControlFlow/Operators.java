@@ -23,11 +23,13 @@ package org.sqa.core.ControlFlow;
 public class Operators {
 	//examples of usage Java assignment operator.
 	public static void main(String[] args) {	
+		// examples of usage Java assignment operator(1).
 		String aa = "String aa ";
 		String bb = "String bb ";
 		String cc = aa + bb;
 		System.out.println(cc);
 		
+		// examples of usage Java arithmetic operators (10)
 		int a = 10;
 		int b = 5;
 		int c = 8;
@@ -41,6 +43,23 @@ public class Operators {
 		System.out.println(c %= a);	// => 0
 		System.out.println(b / a); 	// => 0
 		System.out.println(c /= a);	// => 0
+		
+		//examples of usage Java unary operators (5)
+		int result1 = +1;		
+		System.out.println(result1);	// => 1
+		
+		 result1 = -result1;	 
+		 System.out.println(result1);	// => -1
+		 	
+		 result1 ++;	
+		 System.out.println(result1);	// => 0
+		 	
+		 result1 --;	
+		 System.out.println(result1);	// => -1
+		 	
+		 boolean bl = false; 
+		 bl = !bl;		
+		 System.out.println(bl);	// => true
 		
 	}
 }
